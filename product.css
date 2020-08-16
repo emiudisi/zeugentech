@@ -1,0 +1,258 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Itim', cursive;
+    background:rgba(0, 0, 0, 0.952);
+    color:green;
+    font-family:
+  
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  /* Create three equal columns that sits next to each other */
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+    .column {
+      width: 100%;
+    }
+  }
+h1{
+    font-family:Lobster;
+}
+.green-text{
+    color:green;
+}
+header {
+    position:fixed;
+    top:0;
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0px 20px;
+    width:100%;
+  }
+  @media (max-width: 600px) {
+    header {
+      flex-wrap: wrap;
+    }
+  }
+
+   ul {
+    width:35vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  @media (max-width: 650px) {
+      ul {
+      flex-direction: column;
+    }
+  }
+nav {
+  font-weight: 400;
+}
+@media (max-width: 650px) {
+  nav {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 50px;
+  }
+  nav li {
+    padding-bottom: 5px;
+  }
+}
+  
+#main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 200px;
+  margin-top: 50px;
+}
+#main input[type="email"] {
+  max-width: 275px;
+  width: 100%;
+  padding: 5px;
+}
+
+#main input[type="submit"] {
+  max-width: 150px;
+  width: 100%;
+  height: 30px;
+  margin: 15px 0;
+  border: 0;
+  background-color: #29f10f;
+}
+#main > h2 {
+  margin-bottom: 20px;
+}
+#features .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 125px;
+  width: 20vw;
+  color:green;
+}
+@media (max-width: 550px) {
+  #features .icon {
+    display: none;
+  }
+}
+
+.grid{
+  display:flex;
+}
+#features .desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 125px;
+  width: 80vw;
+  padding: 5px;
+}
+@media (max-width: 550px) {
+  #features .desc {
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    height: 150px;
+  }
+}
+
+@media (max-width: 650px) {
+  #features {
+    margin-top: 0;
+  }
+}
+#page-wrapper {
+  position: relative;
+}
+.container {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+.btn {
+  padding: 0 20px;
+  height: 40px;
+  font-size: 1em;
+  font-weight: 900;
+  text-transform: uppercase;
+  border: 3px green solid;
+  border-radius: 2px;
+  background: transparent;
+  cursor: pointer;
+}
+
+#how-it-works {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+#how-it-works > iframe {
+  max-width: 560px;
+  width: 100%;
+}
+
+#pricing {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: calc(100%  / 3);
+  margin:
+}
+
+
+
+
+@media (max-width: 800px) {
+  #pricing {
+    flex-direction: column;
+  }
+  .product {
+    max-width: 300px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+}
+
+footer {
+  margin-top: 30px;
+  background-color;
+  padding: 20px;
+}
+
+footer > ul {
+  display: flex;
+  justify-content:space-around;
+  width:35vw;
+  flex-direction: row;
+}
+
+footer > ul > li {
+  padding: 0 10px;
+}
+
+footer > span {
+  margin-top: 5px;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 0.9em;
+  color: #444;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 100px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+
+ul{
+  list-style:none;
+}
